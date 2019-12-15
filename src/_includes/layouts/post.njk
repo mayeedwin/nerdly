@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    
+    <title>{{ pageTitle or siteData.name }}</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <p>Posted on {{ date.toLocaleDateString() }} </p>
+    {{ content | safe }}
+   
+   <footer>
+     <p> A blog by <a href="https://twitter.com/mayeedwin1" target="_blank"> Maye Edwin </a></p>
+     <small> 
+     Originally made <a href="https://twitter.com/notwaldorf">Monica</a> and <a href="https://twitter.com/jllord">Jessica</a>.
+     </small>
+      Go back to the <a href="/">homepage</a>.
+    </footer>
+  </body>
+</html>

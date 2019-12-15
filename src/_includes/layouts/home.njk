@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ pageTitle or siteData.name }}</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    {{ content | safe }}
+    
+    <h2>All <b>Nerdy</b> posts</h2>
+    <ul>
+      {%- for post in collections.posts -%}
+        <li>{{ post.date.toLocaleDateString() }} - <a href="{{ post.url }}">{{ post.data.title }}</a></li>
+      {%- endfor -%}
+    </ul>
+    
+   <!-- <h2>💍 My webring of friends</h2>
+    <ul class="no-bullet">
+      {%- for friend in friends -%}
+        <li>
+          <img class="avatar" src="{{ friend.avatar }}">
+          <a href="https://{{ friend.domain }}.glitch.me">{{ friend.domain }}</a> 
+          -- {{ friend.description }}</li>
+      {%- endfor -%}
+    </ul> 
+    <p>...or check out this not-historically-accurate <a href="/webring/">webring view</a>!</p>
+  -->
+    <footer>
+    
+      <p>Tiny blog by <a href="https://twitter.com/mayeedwin1" target="_blank">Maye Edwin</a></p>
+    
+      <small>Claps to <a href="https://twitter.com/notwaldorf">Monica</a> and <a href="https://twitter.com/jllord">Jessica</a> for this template.</small>
+    </footer>
+  </body>
+</html>

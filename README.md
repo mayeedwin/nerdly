@@ -3,7 +3,7 @@
 ## Yet another blog?
 I have been thinking of like having a quick kinda way of writing down tiny posts of interesting things I learn about or do daily as a web dev.
 
-    so, yeah! That got me here!
+ ***So, yeah! That got me here!***
 
 ## Q1. What's the purpose of this?
   

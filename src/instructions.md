@@ -1,15 +1,18 @@
 ---
 layout: layouts/post.njk
-title: How to configure your site
-date: 2019-08-21
+title: How to clone this site
+date: 2019-12-15
 ---
 # Instructions for survival
 
-## 🗣 How to create your new site
+**Edited** by **Maye Edwin** but originally wrtiten by **Monica** and
+**Jessica**.
+
+## 🗣 How to clone this site
 
 This here that you are reading is a Glitch project, so to create your own site that is identical,
 you just have to remix this. You can click this! 
-<a class="glitch-remix" href="https://glitch.com/edit/#!/remix/geoglitchies">
+<a class="glitch-remix" href="https://glitch.com/edit/#!/remix/geoglitches">
   <img alt="Remix on Glitch" src="https://cdn.gomix.com/f3620a78-0ad3-4f81-a271-c8a4faa20f86%2Fremix-button.svg">
 </a>
 

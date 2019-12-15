@@ -1,21 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ pageTitle or siteData.name }}</title>
     <link href="/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    {{ content | safe }}
-    
-    <h2>All <b>Nerdy</b> posts</h2>
+
+     <h2>All <b>Nerdy</b> posts</h2>
     <ul>
       {%- for post in collections.posts -%}
         <li>{{ post.date.toLocaleDateString() }} - <a href="{{ post.url }}">{{ post.data.title }}</a></li>
       {%- endfor -%}
     </ul>
+
+    {{ content | safe }}
     
    <!-- <h2>💍 My webring of friends</h2>
     <ul class="no-bullet">

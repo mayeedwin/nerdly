@@ -1,0 +1,12 @@
+{
+  "author": "Maye Edwin",
+  "title": "Home / Nerdy by Maye Edwin",
+  "icon": "https://maye.pwafire.org/images/icons/mayeedwin.png",
+  "themeColor": "#000",
+  "description": "Tiny web technical docs by Maye Edwin",
+  "keywords": "nerdy, objects, arrays, callbacks, arrow functions, nerdy maye, maye edwin, javascript classes, classes, rules, security, ecmascript, es6",
+  "root": "https://nerdlyweb.web.app",
+  "socialImage": "https://cdn.glitch.com/6cecabe5-99c7-4978-b77c-61920eb6a2d7%2FIMG_20190219_085654.jpg?v=1576408560137",
+  "socialImagePost": "https://cdn.glitch.com/6cecabe5-99c7-4978-b77c-61920eb6a2d7%2Fes7.jpeg?v=1576408405677",
+  "twitter": "@mayeedwin1"
+}

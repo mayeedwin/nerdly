@@ -4,7 +4,7 @@ title: Home / Nerdy Maye Edwin
 draft: true
 ---
 
-# _Nerdy_ by Maye
+# _Nerdly_ by Maye
 
 **Little intro...**
 

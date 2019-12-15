@@ -1,7 +1,14 @@
-# GeoGlitchies
+# Nerdy by Maye
 
-Remember live journal and webrings and geocities and just writing text and not being worried where 
-it's hosted and what framework to use to display it? 
+## Yet another blog?
+I have been thinking of like having a quick kinda way of writing down tiny posts of interesting things I learn about or do daily as a web dev.
 
-Remember making a website about dolphins or being able to look at 100 websites about 
-dolphins in a row? This is kind of like that.
+    so, yeah! That got me here!
+
+## Q1. What's the purpose of this?
+  
+   A1. I'll be posting tiny posts about PWAs, es6, vanilla js, jenga css, css3, semantic html and lots of firebase as well! Very tiny technical articles!
+
+## Q2. What happens to my main blog?
+
+   A2. Aaah, nothing bad's happening! Expect more detailed and long technical docs and guides, dev community and tech related writings!

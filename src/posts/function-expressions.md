@@ -17,16 +17,16 @@ a function in this syntax even before defining it.
 
 ```javascript
 
-// call before declaration
-Hello();
+     // call before defining
+     Hello();
 
-// function declaration
-function Hello() {
-   console.log(`Hello`);
-}
+     // function declaration
+     function Hello() {
+        console.log(`Hello`);
+     }
 
-// call after declaration
-Hello();
+     // call after defining
+     Hello();
 
 ```
 
@@ -40,13 +40,13 @@ I love using **arrow functions** in this case.
 
  ```javascript
 
-// define the function first
- const Hello = () => {
-   console.log(`Hello`);
- };
+     // define the function first
+     const Hello = () => {
+      console.log(`Hello`);
+     };
 
- // call after defining
- Hello();
+     // call after defining
+     Hello();
 
  ```
 

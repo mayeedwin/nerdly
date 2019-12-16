@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", monospace;
   margin: 2em;
   background: var(--background);
   color: var(--foreground);
@@ -70,6 +70,10 @@ a:hover {
 .glitch-remix img {
   height: 30px;
   vertical-align: text-bottom;
+}
+
+pre {
+  max-width: 500px;
 }
 
 pre,

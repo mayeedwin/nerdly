@@ -1,20 +1,10 @@
 {
   "install": {
-    "include": [
-      "^package\\.json$",
-      "^\\.env$"
-    ]
+    "include": ["^package\\.json$", "^\\.env$"]
   },
   "restart": {
-    "exclude": [
-      "^dist/"
-    ],
-    "include": [
-      "src/",
-      "watch.json$",
-      ".eleventy.js$",
-      "css/style.css"
-    ]
+    "exclude": ["^dist/"],
+    "include": ["src/", "watch.json$", ".eleventy.js$", "jenga/App.css"]
   },
   "throttle": 1000
 }

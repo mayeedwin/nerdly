@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <script>
+// Check that service workers are supported
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js');
+  });
+}
+</script>
    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,10 +38,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-
+     <p class="cached">Caching....</p>
       {{ content | safe }}
 
      <h2>All <b>Nerdy</b> posts</h2>
+    
     <ul>
       {%- for post in collections.posts -%}
         <li>{{ post.date.toLocaleDateString() }} - <a href="{{ post.url }}">{{ post.data.title }}</a></li>

@@ -15,7 +15,7 @@ So, one thing to note is that **function declaration** is **hoisted**.
 What this means is that you can still call
 a function in this syntax even before defining it.
 
-```javascript
+```js
 
      // call before defining
      Hello();
@@ -38,7 +38,7 @@ allows you to have a good logical flow in your code!
 
 I love using **arrow functions** in this case. 
 
- ```javascript
+ ```js
 
      // define the function first
      const Hello = () => {

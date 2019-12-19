@@ -8,6 +8,7 @@
 html {
   --foreground: #222;
   --background: white;
+  --box-shadow: #5dbA9b;
   --primary: aquamarine;
   --secondary: lavender;
   --spacing-s: 8px;
@@ -24,11 +25,13 @@ body {
   color: var(--foreground);
   line-height: 1.5;
   max-width: 800px;
+  user-select: none;
 }
 
 h1 {
   border-radius: 3px;
   background: var(--primary);
+  box-shadow: 7px 7px 0 var(--box-shadow);
   display: inline-block;
   padding: 8px 8px;
 }

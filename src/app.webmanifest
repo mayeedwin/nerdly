@@ -1,0 +1,25 @@
+{
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "orientation":"portrait",
+    "theme_color": "#fff",           
+    "short_name": "Nerdly",
+    "name": "Nerdly by Maye",
+    "description": "Little articles by Maye Edwin",
+    "lang": "en-US",
+"icons": [
+    {
+      "src": "images/icons/icon-144x144.png",
+      "sizes": "https://cdn.glitch.com/6cecabe5-99c7-4978-b77c-61920eb6a2d7%2Ficon-144x144.png?v=1576886974359",
+      "type": "image/png"
+    },
+
+    {
+      "src": "https://cdn.glitch.com/6cecabe5-99c7-4978-b77c-61920eb6a2d7%2Ficon-512x512.png?v=1576886980670",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+    "start_url": "./",
+    "scope": "./"
+  }

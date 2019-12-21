@@ -4,8 +4,8 @@ const fetch = require("node-fetch");
 module.exports = eleventyConfig => {
   // eleventyConfig.addFilter( "myFilter", () => {});
   eleventyConfig.addPassthroughCopy("jenga");
- // eleventyConfig.addPassthroughCopy("**/*.js");
- // eleventyConfig.addPassthroughCopy("**/*.webmanifest");
+  // eleventyConfig.addPassthroughCopy("**/*.js");
+  // eleventyConfig.addPassthroughCopy("**/*.webmanifest");
   eleventyConfig.addCollection("posts", collection => {
     return [...collection.getFilteredByGlob("./src/**/*.md")]
       .filter(p => !p.data.draft)

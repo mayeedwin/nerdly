@@ -1,4 +1,4 @@
-# Nerdy by Maye
+# Nerdly by Maye
 
 ## Yet another blog?
 I have been thinking of like having a quick kinda way of writing down tiny posts of interesting things I learn about or do daily as a web dev.

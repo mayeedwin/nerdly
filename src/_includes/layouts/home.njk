@@ -38,11 +38,23 @@ if ('serviceWorker' in navigator) {
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-     <p class="cached">Caching....</p>
+    <main>
+    
+    <header>
+    <span>
+     <img 
+     style="width: 80px;
+     border-radius: 10px;
+     box-shadow: 4px 4px 0 aquamarine;" 
+     src="https://cdn.glitch.com/6cecabe5-99c7-4978-b77c-61920eb6a2d7%2Fmaye.jpg?v=1576887421955" 
+     alt="Maye Edwin">
+     
+     </span>
       {{ content | safe }}
+    </header>
 
      <h2>All <b>Nerdy</b> posts</h2>
-    
+
     <ul>
       {%- for post in collections.posts -%}
         <li>{{ post.date.toLocaleDateString() }} - <a href="{{ post.url }}">{{ post.data.title }}</a></li>
@@ -60,6 +72,7 @@ if ('serviceWorker' in navigator) {
     </ul> 
     <p>...or check out this not-historically-accurate <a href="/webring/">webring view</a>!</p>
   -->
+    </main>
     <footer>
     
       <p>Tiny blog by <a href="https://twitter.com/mayeedwin1" target="_blank">Maye Edwin</a>.</p>

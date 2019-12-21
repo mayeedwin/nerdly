@@ -26,9 +26,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <main>
     <p>Posted on {{ date.toLocaleDateString() }} </p>
     
     {{ content | safe }}
+    </main>
    
    <footer>
       <p>Go back to the <a href="/">homepage</a>.</p>

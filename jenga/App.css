@@ -85,6 +85,13 @@ a:hover {
 }
 
 pre {
+    max-width: 800px;
+    box-shadow: 7px 7px 0 var(--secondary);
+}
+
+/*
+
+pre {
   max-width: 500px;
 }
 
@@ -96,6 +103,8 @@ code {
   background: var(--secondary);
   color: var(--text-color);
 }
+
+*/ 
 
 footer {
   padding-top: var(--spacing-l);

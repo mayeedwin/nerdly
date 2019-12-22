@@ -22,5 +22,5 @@ technical docs and guides, dev community and tech related writings!
 ## Q3. Can I clone Nerdly?
 
 **A3.** Aaah, yes! Why not? It's so easy. So, [Generate it from GitHub](https://github.com/mayeedwin/nerdly/generate) or
-[Remix on Glitch](https://glitch.com/~nerdly) and follow [this guide](https://nerdly.glitch.me/posts/clone-nerdly/)
+[Remix on Glitch](https://glitch.com/~nerdly) and follow [this guide](https://nerdlyweb.web.app/posts/clone-nerdly/)
 to have your [Nerdly Clone](http://nerdlyweb.web.app/).

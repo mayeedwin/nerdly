@@ -26,7 +26,6 @@ body {
   color: var(--foreground);
   line-height: 1.5;
   max-width: 800px;
-  user-select: none;
 }
 
 main,
@@ -85,8 +84,8 @@ a:hover {
 }
 
 pre {
-    max-width: 800px;
-    box-shadow: 7px 7px 0 var(--secondary);
+  max-width: 800px;
+  box-shadow: 7px 7px 0 var(--secondary);
 }
 
 /*
@@ -104,7 +103,7 @@ code {
   color: var(--text-color);
 }
 
-*/ 
+*/
 
 footer {
   padding-top: var(--spacing-l);

@@ -43,6 +43,6 @@ but the TL; DR is:
   - `post.njk`, used by all the other posts.
 - these are HTML + [Nunjucks](https://mozilla.github.io/nunjucks/) files, and if you want your pages to look different,
   this is what you should modify.
-- the styles come from `css/style.css`
+- the styles come from `./jenga/`
 
 Enjoy!

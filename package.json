@@ -17,11 +17,11 @@
     "start": "npm run deploy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.10.0",
     "node-fetch": "^2.6.0",
-    "http-server": "0.11.1",
-    "firebase-tools": "^7.11.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0"
+    "http-server": "^0.12.1",
+    "firebase-tools": "^7.12.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
   },
   "license": "MIT"
 }

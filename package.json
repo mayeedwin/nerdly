@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "http-server": "^0.12.1",
     "firebase-tools": "^7.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
